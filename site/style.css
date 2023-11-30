@@ -1,6 +1,9 @@
+body {
+    font-family: 'Barlow', sans-serif;
+}
+
 h1 {
     text-align: center;
-    font-family: 'Barlow', sans-serif;
 }
 
 .main_text {
@@ -8,5 +11,19 @@ h1 {
     text-align: center;
     width: 50%;
     padding-top: 2em;
+    padding-bottom: 5em;
     font-family: 'Barlow', sans-serif;
+}
+
+.main_text > .hurt_feelings {
+    padding-top: 15em;
+}
+
+.credits {
+    /* In case this does magically work out once rest of the design is done */
+    /* font-family: 'Playpen Sans', cursive; */
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    width:100%;
 }
