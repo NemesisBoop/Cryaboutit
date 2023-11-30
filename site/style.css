@@ -1,5 +1,9 @@
 body {
     font-family: 'Barlow', sans-serif;
+    background-image: url("peak_background.svg");
+    background-repeat: no-repeat;
+    background-size: 200% 200%;
+    color: white;
 }
 
 h1 {
@@ -8,9 +12,12 @@ h1 {
 
 .main_text {
     margin: auto;
+    background-color: rgba(0, 0, 0, 0.26);
     text-align: center;
     width: 50%;
     padding-top: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
     padding-bottom: 5em;
     font-family: 'Barlow', sans-serif;
 }
@@ -24,6 +31,8 @@ h1 {
     /* font-family: 'Playpen Sans', cursive; */
     position:fixed;
     left:0px;
+    opacity: 50%;
     bottom:0px;
     width:100%;
+    padding-bottom: 0.5em;
 }
