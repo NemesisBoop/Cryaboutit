@@ -1,1 +1,3 @@
-IO.puts("Hello, World!")
+defmodule :main do
+  IO.puts("Hello, world!")
+end
